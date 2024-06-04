@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+*{
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+    margin: 20 45;
+    
+
+}
+@media screen and (max-width:420px) {
+    #sec1>h1{
+        font-size: 21px;
+       
+        margin-top:22px ;
+        
+        text-align: left;
+        
+    }
+    #imglogo{
+        
+    
+      width: 28.72px;
+      height: 33.52px;
+        margin-bottom: 20;
+       
+       
+     
+
+    }
+    .navbar {
+        flex-direction: column;
+        position:;
+    }  
+    .navbar>ul{
+       justify-content: space-evenly;
+       
+    }
+    .banner{
+        font-size: 15px;
+        text-align: center;
+        flex-direction: column;
+       
+    }
+    .banner>p{
+       
+        font-size: 10px;
+        padding: 20;
+    }
+    
+}
+#sec1{
+    display: flex;
+    
+    
+
+
+}
+#sec1>h1{
+    
+    font-weight: 800;
+    
+    
+
+
+}
+#imglogo {
+    
+    margin-right: 10px;
+    margin-top: 20px ;
+    
+    
+}
+.navbar >ul{
+    display: flex;
+    font-size: 20px;
+}
+.navbar li{
+    list-style: none;
+    margin-right: 30px;
+    font-family: Mulish;
+    font-size: 15px;
+    text-align: center;
+   
+}
+.navbar a{
+    text-decoration: none;
+    color:chocolate;
+}
+
+
+.banner{
+    background-image:  url(Group\ 13\ \(1\)\ \(1\).png );
+    
+    background-size: cover;
+    flex-shrink: 0;
+    box-sizing: border-box;
+   
+   background-repeat: no-repeat;
+
+    height: 600px;
+    background-size: cover;
+    margin: 20 45;
+    text-align: center;
+    
+
+
+}
+
+
+@media  screen  and (max-width:600px) {
+    .banner{ 
+        box-sizing: border-box;
+        display: cover;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+
+    }
+    
+}
+.banner> h1 {
+    padding-top:100px;
+    color: #FFF;
+    font-size: 45px;
+
+}
+.banner>p {
+    text-align: center;
+   display: grid;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    color: #FFF;
+    margin: 0 400;
+}
+.banner>div{
+   
+    margin: 55px;
+    
+
+
+   
+
+}
+input{
+    border-radius: 8px;
+    height: 42px;
+    width:120px ;
+}
+#btn1{
+    height: 42px;
+    width:120px ;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+}
+select{
+    height: 42px;
+    width:120px ;
+    border-radius: 8px;
+}
+.section-1{
+    display: flex;
+    margin: 20 45;
+}
+.section-11{
+    width: 50%;
+  padding: 80px;
+  
+}
+.section-11>h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-11>button{
+    margin-top: 20px;
+    background-color: #FF5400;
+    position: absolute;
+width: 150px;
+height: 42px;
+left: 120px;
+border-radius: 20px;
+}
+
+ .section-12>img{
+    height: 400px;
+    width: 900px;
+    
+ }   
+ .country{
+    
+    text-align: center;
+    background-color: #FF5400; 
+    display: grid;
+    justify-content: center;  
+   align-content: center;
+   margin: 55px;
+ }
+ .country>p{
+    max-width: 600px;
+   
+ }
+ .feature{
+    display: grid;
+    
+    grid-template:  repeat(3, 1fr)/repeat(3, 1fr);
+    grid-gap: 15px;
+    background-size: contain;
+    margin: 55px;
+ }
+
+.f55{grid-column-start: 1  ;
+    grid-column-end:-2 ;
+
+}
+.material-symbols-outlined{
+    
+    color: #0e0b0a;
+    height: 30px;
+    width: 30px; 
+}
+.whyus{
+    
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+    margin:70px ;
+    
+    
+}
+.whyus>h4{
+    font-size: 30px;
+}
+.whyus>p{
+    max-width: 600px;
+    margin: 10px;
+   
+    font-size: 20px;
+}
+#hh{
+    background-color: bisque;
+   width: 50%;
+   padding: 60px;
+   font-size: 20px;
+  
+   
+   
+}
+#map{
+    background-color: rgb(224, 115, 173);
+    width: 50%;
+    padding: 60px;
+    font-size: 20px;
+}
+.sec-why{
+    display: flex;
+    height: 254px; 
+    margin: 55px;
+   gap: 20px;
+}
+.loyalty{
+    
+   background-color: rgb(212, 208, 203);
+    
+    padding: 60px;
+    font-size: 20px;
+    display: grid;
+    height: 254px;
+    justify-content: center;
+    align-content: center;
+   
+    margin: 0 400;
+
+}
+.deals{
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin:70px ;
+}
+.deals>h4{
+    font-size: 30px;
+}
+.deals>p{
+    margin-top: 10px;
+    font-size: 20px;
+    max-width: 600px;
+}
+.plan1{
+    border-radius: 16px;
+    background-image:url(Group\ 39.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 20 45;
+    
+
+    
+}
+.plan1-body{
+    background: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    height: 320px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    right: 150px;
+    margin-top: 150px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 40px;
+
+}
+#plan-icon{
+    display: flex;
+   justify-content: space-between;
+    
+}
+.plan-t{
+    justify-content: space-evenly;
+    height: 200px;
+    margin-top: 20px;
+    
+}
+.plan-t>h5{
+    font-size:25px ;
+    margin-bottom: 10px;
+}
+.plan-t>h6{
+    font-size:15px ;
+    color: #FF5400;
+    margin-top: 10px;
+}
+.plan-t>button{
+    font-size:15px ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FF5400;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.plan2{
+    border-radius: 16px;
+    background-image:url(Group\ 40.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 20 45;
+    
+}
+.plan2-body{
+    background: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    height: 320px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 150px;
+    margin-top: 150px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 40px;
+
+}
+.plan3{
+    border-radius: 16px;
+    background-image:url(Group\ 39.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 20 45; 
+}
+#ind-btn{
+    font-size:15px ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FF5400;
+    color: #FFF;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.btn-ind{
+    text-align: center;
+}
+.sec-21{
+    width: 50%;
+    display: grid;
+    grid-gap: 10px;
+    font-size:20px
+}
+.sec-21>button{
+    width: 170px;
+    height: 50px;
+    font-size:15px ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FF5400;
+    color: #FFF;
+}
+.sec-21>h3{
+    font-size: 35px;
+    margin-right: 70px;
+}
+.sec-22{
+    /* background-image: url(Group\ 40089.png); */
+    background-color: #FF5400;
+    background-repeat: no-repeat;
+   width: 50%;
+    height: 400px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: #FFF;
+    font-size:20px ;
+    border-radius: 15px;
+    
+    
+
+}
+.section-2{
+    display: flex;
+    
+    gap: 20px;
+    margin: 55px;
+
+}
+.sec-31{
+    width: 40%;
+    height: 422px;
+    left: 135px; 
+    font-size: 20px;
+    display: grid;
+    grid-gap: 10px;
+    padding: 35px;
+}
+.sec-31>h6{
+    font-size: 40px;
+}
+.sec-31>input{
+    width: 100%;
+    padding: 20px;
+}
+.sec-31>button{
+    color: #FFF;
+    background-color: #FF5400;
+    border-radius: 15px;
+}
+.sec-32{
+    background-image: url(Rectangle\ 8\ \(1\).png);
+    height: 422px;
+    background-repeat: no-repeat;
+    width: 60%;
+    border-radius: 15px;
+    
+    color: #FFF;
+
+}
+.sec-33>p{
+    font-size: 20px;
+
+}
+.sec-33>h2{
+    font-size:30px ;
+}
+.sec-33{
+    background-color: #FF5400;
+    width: 300px;
+    height: 100px;
+    rotate: -30deg;
+   padding: 30px;
+    
+
+}
+
+
+
+
+.section-3{
+    display: flex;
+    margin: 55px;
+    gap: 20px;
+}
